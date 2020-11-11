@@ -1,17 +1,9 @@
 var asn = require('asn1.js')
-var crypto = require('crypto')
 var BN = asn.bignum
 
 var zero = new BN(0)
 var one = new BN(1)
 var two = new BN(2)
-
-function rand(low, high) {
-  do {
-    var b = new BN(crypto.randomBytes(high.byteLength()))
-  } while(b.cmp(low) <= 0 || b.cmp(high) >= 0)
-  return b
-}
 
 function odd(n) {
   if (n.cmp(zero) === 0) { return zero }

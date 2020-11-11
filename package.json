@@ -1,6 +1,6 @@
 {
   "name": "@jusola/pem-jwk",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "convert between PEM and JWK formats",
   "main": "index.js",
   "bin": {
