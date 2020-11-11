@@ -1,6 +1,6 @@
 {
   "name": "@jusola/pem-jwk",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "convert between PEM and JWK formats",
   "main": "index.js",
   "bin": {
@@ -9,19 +9,11 @@
   "engines": {
     "node": ">=5.10.0"
   },
-  "scripts": {
-    "test": "tap test"
-  },
   "license": "MPL-2.0",
   "dependencies": {
     "asn1.js": "^5.0.1"
   },
-  "devDependencies": {
-    "tap": "^14.10.8"
-  },
-  "directories": {
-    "test": "test"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dannycoates/pem-jwk.git"
