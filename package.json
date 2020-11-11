@@ -1,9 +1,11 @@
 {
-  "name": "pem-jwk",
-  "version": "2.0.0",
+  "name": "@jusola/pem-jwk",
+  "version": "2.0.1",
   "description": "convert between PEM and JWK formats",
   "main": "index.js",
-  "bin": "./bin/pem-jwk.js",
+  "bin": {
+    "pem-jwk": "bin/pem-jwk.js"
+  },
   "engines": {
     "node": ">=5.10.0"
   },
@@ -15,17 +17,18 @@
     "asn1.js": "^5.0.1"
   },
   "devDependencies": {
-    "tap": "^12.1.1"
+    "tap": "^14.10.8"
   },
   "directories": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dannycoates/pem-jwk.git"
+    "url": "git+https://github.com/dannycoates/pem-jwk.git"
   },
   "bugs": {
     "url": "https://github.com/dannycoates/pem-jwk/issues"
   },
-  "homepage": "https://github.com/dannycoates/pem-jwk"
+  "homepage": "https://github.com/dannycoates/pem-jwk",
+  "author": ""
 }

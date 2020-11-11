@@ -229,5 +229,6 @@ function string2bn(str) {
 module.exports = {
   pem2jwk: pem2jwk,
   jwk2pem: jwk2pem,
+  base64url2bn: base64url2bn,
   BN: asn.bignum
 }
